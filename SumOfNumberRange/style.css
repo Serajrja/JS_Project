@@ -1,0 +1,64 @@
+body{
+    background-color:rgb(28, 0, 54);
+    color:white;
+}
+#maincontainer {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #003e6d;
+    
+}
+#submaincontainer{
+    width:auto;
+    height:auto;
+    background-color:white;
+    color:#000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:bold;
+    font-size:36px;
+    border:10px solid rgb(55, 138, 193);
+    border-radius:5px;
+    padding:10px;
+    
+}
+
+input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-style:bold;
+    background-color: #f9f9f9;
+    color: #080808;
+}
+
+input[type="number"]:focus {
+    border-color: #555;
+    outline: none;
+    background-color: #fff;
+}
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6e9c05;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #04c58e;
+}
+#result{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px;
+    font-style:bold;
+    color:#fff;
+}
