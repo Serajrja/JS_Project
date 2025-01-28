@@ -4,6 +4,10 @@ function addfun(){
     let array1=[];
     if(start < 0 || start >= end){
         document.getElementById("result").innerHTML="Start Number Should Not Be Less Than 0 And Start Number should Not Be Greater than End Number.";
+        setTimeout(() => {
+            location.reload();
+        }, 3000);
+        
     }else{
         for(start;start<=end;start++){
             array1.push(start);
